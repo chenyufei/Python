@@ -10,7 +10,8 @@ import pandas as pd
 import threading
 import json
 
-class Dest_Data():
+
+class DataMerge(object):
     """
     完成GSP发货测试数据的合并
     针对每种传感器数据，只需要在程序目录src下创建对应的保存传感数据的文件夹
@@ -146,13 +147,13 @@ class Dest_Data():
 
 
 def main():
-    ZMJ_PORTAL = Dest_Data()
-    ZMJ_PORTAL.remove_dst_file('.csv')
-    ZMJ_PORTAL.remove_dst_file('.xlsx')
+    gspdata = DataMerge()
+    gspdata.remove_dst_file('.csv')
+    gspdata.remove_dst_file('.xlsx')
     time.sleep(1)
     print("开始处理")
-    ZMJ_PORTAL.start_task()
-    ZMJ_PORTAL.remove_dst_file('.csv')
+    gspdata.start_task()
+    gspdata.remove_dst_file('.csv')
     print("处理结束")
 
 
