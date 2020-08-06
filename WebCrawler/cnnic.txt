@@ -1,0 +1,30 @@
+IPv4地址段:8.0.0.0 - 8.255.255.255
+网络名称:IANA-NETBLOCK-8
+单位描述:This network range is not allocated to APNIC.
+单位描述:descr:
+单位描述:If your whois search has returned this message, then you have
+单位描述:searched the APNIC whois database for an address that is
+单位描述:allocated by another Regional Internet Registry (RIR).
+单位描述:descr:
+单位描述:Please search the other RIRs at whois.arin.net or whois.ripe.net
+单位描述:for more information about that range.
+国家代码:AU
+管理联系人:IANA1-AP
+技术联系人:IANA1-AP
+备注:For general info on spam complaints email spam@apnic.net.
+备注:For general info on hacking &amp; abuse complaints email abuse@apnic.net.
+维护账号:MAINT-APNIC-AP
+次级维护帐号:MAINT-APNIC-AP
+地址状态:ALLOCATED PORTABLE
+最后修改记录:2008-09-04T06:51:28Z
+数据来源:APNIC
+角色:Internet Assigned Numbers Authority
+通讯地址:see http://www.iana.org.
+管理联系人:IANA1-AP
+技术联系人:IANA1-AP
+联系人代码:IANA1-AP
+备注:For more information on IANA services
+备注:go to IANA web site at http://www.iana.org.
+维护账号:MAINT-APNIC-AP
+最后修改记录:2018-06-22T22:34:30Z
+数据来源:APNIC
